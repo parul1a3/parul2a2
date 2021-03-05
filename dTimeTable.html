@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!--Meta Data-->
+        <meta charset="UTF-8">
+        <meta name="description" content="CSE 1A3-Parul University">
+        <meta name="keywords" content="Parul University,Parul, 1A3 Website">
+        <meta name="author" content="Technical team CSE 1A3">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TimeTable-Parul 1A3</title>
+
+	<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="reboot13.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+<link rel="icon" href="https://worldassessmentcouncil.org/wp-content/uploads/2020/02/WAC-Parul-University-Logo.png" type="image/icon type">
+	<!--Javascript-->
+	<script type="text/javascript" src="reboot13.js"></script>
+  <script type="text/javascript" src="timetable.js"></script>
+</head>
+<body class="dark-mode">
+
+
+<main role="main">
+
+<div class="jumbotron">
+    <div class="container">
+    <h1 class="display-3">TimeTable<img src="https://img.icons8.com/color/80/000000/code.png"/></h1>
+    <a href="TimeTable">
+    <img  src="https://img.icons8.com/fluent/48/000000/sun.png" align="right">
+  </a>
+<p id="Date" align="center"></p>
+<!--Start of TimeTable-->
+<div class="TimeTable">
+  <h3 align="center" id="TimeTable">TimeTable- <span id="day"></span></h3>
+<table class="table dark-table" id="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Time</th>
+      <th scope="col">Subject</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>9:30 TO 10:25 AM</td>
+      <td><span id="Subject1"></span></td>
+      <td><span id="Link1"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>10:35 TO 11:30 AM</td>
+      <td><span id="Subject2"></span></td>
+      <td><span id="Link2"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>12:15 TO 1:10 PM</td>
+     <td><span id="Subject3"></span></td>
+      <td><span id="Link3"></span></td>
+    </tr>
+     <tr>
+      <th scope="row">4</th>
+      <td>1:20 TO 2:15 PM</td>
+      <td><span id="Subject4"></span></td>
+      <td><span id="Link4"></span></td>
+    </tr>
+     <tr>
+      <th scope="row">5</th>
+      <td>2:30 TO 3:25 PM</td>
+     <td><span id="Subject5"></span></td>
+      <td><span id="Link5"></span></td>
+    </tr>
+     <tr>
+      <th scope="row">3</th>
+      <td>3:30 TO 4:25 PM</td>
+      <td><span id="Subject6"></span></td>
+      <td><span id="Link6"></span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h5 align="center">Extra Lecture:
+	<span id="extralec"></span></h5>
+<!--End of TimeTable-->
+
+
+
+</div>
+
+
+
+<div class="navbar_fixed">
+<nav class="navbar navbar-expand-lg navbar-light bg-hello">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="dindex">CSE 1A3</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="dindex">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dTimeTable">TimeTable</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dnotes">Notes</a>
+        </li>
+      
+        <li class="nav-item"><a class="nav-link" href="dindex#contact">Contact</a></li>
+         
+      </ul>
+    </div>
+  </div>
+</nav>  
+
+
+</div>
+
+</main>
+
+
+<footer class="dark-blog-footer" id="blog-footer">
+  <p>Made with <img src="https://img.icons8.com/fluent/20/000000/brain.png"/>&<img src="https://img.icons8.com/fluent/20/00000/like.png"/> </p>
+  <p>
+Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved to 
+ Technical Team CSE 1A3</p>
+</footer>
+<!--Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
